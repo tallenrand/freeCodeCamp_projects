@@ -1,4 +1,4 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/tkrand/pen/gGwyQp.
+A Pen created at CodePen.io. You can find this one at https://codepen.io/tkrand/full/gGwyQp/.
 
  A basic portfolio made by Tallen Rand to fulfill the requirements of the 'Build a Personal Portfolio Webpage' challenge at freeCodeCamp.org.
 
