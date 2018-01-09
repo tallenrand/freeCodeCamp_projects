@@ -1,0 +1,482 @@
+img {
+  z-index: -10;
+  position: relative;
+  margin-top: -510px;
+  height: 490px;
+  width: 700px;
+  border-radius: 110px;
+  opacity: 0.7;
+  outline: none;
+}
+
+#mainDiv {
+  width: 700px;
+  height: 486px;
+  margin: 0 auto;
+  margin-top: 16px;
+  border: 6pt dashed black;
+  padding-top: 2px;
+  border-radius: 120px; 
+  outline: none;
+}
+#row {
+  margin-top: 30px !important;
+}
+.wrapper {
+  text-align: center;
+  margin-top: -40px;
+}
+#minutes {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 100px;
+  color: white;
+}
+#colon {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 80px;
+  color: white;
+}
+#seconds {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 100px;
+  color: white;
+}
+#timeTextFace {
+  margin-top: -80px;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 60px;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 60px;
+  margin-top: -1px;
+  outline: none;
+}
+
+#clockBody {
+  border: 1pt solid black;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-left: 110px;
+  margin-top: 0px;
+  float: left;
+  background-color: white;
+}
+#clockFaceGo {
+  height: 291px;
+  width: 290px;
+  border-radius: 50%;
+  border: 1pt solid black;
+  margin-left: 5px;
+  margin-top: 4px;
+  background-color: #424242;
+  outline: none;
+}
+
+h2 {
+  float: right;
+  text-align: center;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 24px;  
+}
+h3 {
+  text-align: center;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  color: white;
+}
+h4 {
+  text-align: left;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 32px;
+  color: white;
+}
+h6 {
+  text-align: center;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 20px;
+  color: black;
+  position: relative;
+  margin: -2px;
+}
+
+
+#timerTime {
+  margin-top: 50px;
+  margin-left: 40px;
+  float: left;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  color: white;
+  width: 60px;
+}
+#timerText {
+  position: absolute;
+  margin-top: 90px;
+  margin-left: -140px !important;
+  float: left;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 30px;
+  color: white;
+}
+#breakTime {
+  margin-top: 50px;
+  margin-right: 40px;
+  float: right;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  color: white;
+  width: 60px;
+}
+#breakText {
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 40px !important;
+  float: right;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 30px;
+  color: white;
+}
+
+#setTimerText {
+  margin-top: 0px;
+  margin-left: 490px;
+  position: absolute;
+  text-decoration: none;
+  pointer-events: none;
+}
+#setBreakText {
+  margin-top: 155px;
+  margin-left: 516px;
+  position: absolute;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+#timerSet {
+  border: 1pt solid black;
+  height: 151px;
+  width: 151px;
+  border-radius: 50%;
+  margin-top: -30px;
+  margin-right: 110px;
+  float: right;
+  background-color: white;
+}
+#timerUp {
+  margin-left: 6px;
+  margin-top: 6px;
+  float: top;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  width: 138px;
+  height: 69px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #76FF03;
+  border: 1pt solid black;
+}
+#timerUp:hover {
+  margin-left: 6px;
+  margin-top: 6px;
+  float: top;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  width: 138px;
+  height: 69px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #EC407A;
+  border: 1pt solid black;
+}
+#timerUp:active {
+  margin-left: 2px;
+  margin-top: 2px;
+  float: top;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  width: 146px;
+  height: 73px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #FF1744;
+  border: 1pt solid black;
+  background-color: #F57C00;
+}
+#timerDown {
+  margin-left: 6px;
+  margin-top: 0px;
+  float: bottom;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  width: 138px;
+  height: 69px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #76FF03;
+  border: 1pt solid black;
+}
+#timerDown:hover {
+  margin-left: 6px;
+  margin-top: 0px;
+  float: bottom;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  width: 138px;
+  height: 69px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #EC407A;
+  border: 1pt solid black;
+}
+#timerDown:active {
+  margin-left: 2px;
+  margin-top: 0px;
+  float: bottom;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  width: 146px;
+  height: 73px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #FF1744;
+  border: 1pt solid black;
+  background-color: #F57C00;
+}
+
+#breakSet {
+  border: 1pt solid black;
+  height: 131px;
+  width: 131px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 90px;
+  float: right;
+  background-color: white;
+}
+#breakUp {
+  margin-left: 5px;
+  margin-top: 6px;
+  float: top;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  width: 120px;
+  height: 60px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #4CAF50;
+  border: 1pt solid black;
+}
+#breakUp:hover {
+  margin-left: 5px;
+  margin-top: 6px;
+  float: top;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  width: 120px;
+  height: 60px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #29B6F6;
+  border: 1pt solid black;
+  background-color: #EC407A;
+}
+#breakUp:active {
+  margin-left: 3px;
+  margin-top: 4px;
+  float: top;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  width: 124px;
+  height: 62px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #29B6F6;
+  border: 1pt solid black;
+  background-color: #F57C00;
+}
+#breakDown {
+  margin-left: 5px;
+  margin-top: 0px;
+  float: bottom;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  width: 120px;
+  height: 60px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #4CAF50;
+  border: 1pt solid black;
+}
+#breakDown:hover {
+  margin-left: 5px;
+  margin-top: 0px;
+  float: bottom;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  width: 120px;
+  height: 60px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #29B6F6;
+  border: 1pt solid black;
+  background-color: #EC407A;
+}
+#breakDown:active {
+  margin-left: 3px;
+  margin-top: 0px;
+  float: bottom;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+  width: 124px;
+  height: 62px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #29B6F6;
+  border: 1pt solid black;
+  background-color: #F57C00;
+}
+
+#reset {
+  border: 1pt solid black;
+  height: 100px;
+  width: 101px;
+  border-radius: 50%;
+  margin-top: -4px;
+  margin-right: 170px;
+  float: right;
+  background-color: white;
+}
+#btnReset {
+  border: 1pt solid black;
+  border-radius: 50%;
+  height: 92px;
+  width: 92px;
+  margin-top: 4px;
+  margin-left: 4px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 32px;
+  background-color: #29B6F6;
+}
+#btnReset:hover {
+  border: 1pt solid black;
+  border-radius: 50%;
+  height: 92px;
+  width: 92px;
+  margin-top: 4px;
+  margin-left: 4px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 32px;
+  background-color: #EC407A;
+}
+#btnReset:active {
+  border: 1pt solid black;
+  border-radius: 50%;
+  height: 96px;
+  width: 96px;
+  margin-top: 2px;
+  margin-left: 2px;
+  outline: none;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  background-color: #F57C00;
+}
+#btnStart {
+  height: 62px;
+  width: 62px;
+  border-radius: 31px;
+  border: 3pt dashed black;
+  background-color: #64DD17;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 22px;
+  float: left;
+  margin-top: -340px;
+  margin-left: 140px;
+  outline:none;
+}
+#btnStart:hover {
+  height: 62px;
+  width: 62px;
+  border-radius: 31px;
+  border: 3pt dashed black;
+  background-color: #81C784;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 24px;
+  float: left;
+  margin-top: -340px;
+  margin-left: 140px;
+  outline:none;
+}
+#btnStart:active {
+  height: 62px;
+  width: 62px;
+  border-radius: 31px;
+  border: 4pt dashed black;
+  background-color: #2E7D32;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 22px;
+  float: left;
+  margin-top: -340px;
+  margin-left: 140px;
+  outline:none;
+}
+
+#btnStop {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-left: -6px;
+  border: 3pt dashed black;
+  background-color: #BF360C;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 20px;
+  float: left;
+  margin-top: -294px;
+  margin-left: 106px;
+  outline:none;
+}
+#btnStop:hover {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-left: -6px;
+  border: 3pt dashed black;
+  background-color: #F06292;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 22px;
+  float: left;
+  margin-top: -294px;
+  margin-left: 106px;
+  outline:none;
+}
+#btnStop:active {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-left: -6px;
+  border: 4pt dashed black;
+  background-color: #BF360C;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 20px;
+  float: left;
+  margin-top: -294px;
+  margin-left: 106px;
+  outline:none;
+}

@@ -1,0 +1,155 @@
+.heading {
+  font-size: 80px;
+  font-family: 'Freckle Face', cursive;
+  line-height: 80%;
+  margin-top: 0px;
+  margin-bottom: -2px;
+  color: #333535;
+}
+
+.subheading {
+  font-size: 25px;
+  font-family: 'Freckle Face', cursive;
+  font-family: 'Black Ops One', cursive;
+  font-family: 'Walter Turncoat', cursive;
+  font-family: 'Farsan', cursive;
+  line-height: 60%;
+  margin-bottom: 20px;
+}
+
+.tribute-text {
+  font-size: 20px;
+  font-family: 'Freckle Face', cursive;
+  font-family: 'Black Ops One', cursive;
+  font-family: 'Walter Turncoat', cursive;
+  font-family: 'Farsan', cursive;
+  line-height: 80%;
+  margin-top: 35px;
+  margin-bottom: 12px;
+}
+.image-settings {
+  border-top-style: solid;
+  border-top-width: 15px;
+  border-top-color: white;
+  border-right-style: solid;
+  border-right-width: 15px;
+  border-right-color: white;
+  border-left-style: solid;
+  border-left-width: 15px;
+  border-left-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 20px;
+  border-bottom-color: white;
+  width: 800px;
+  margin-top: 15px;
+}
+
+.background-accent {
+  background-color: #c4c4c4;
+  background-color: rgba(196, 196, 196);
+  border-top-style: solid;
+  border-top-width: 40px;
+  border-top-color: white;
+  border-right-style: solid;
+  border-right-width: 75px;
+  border-right-color: white;
+  border-left-style: solid;
+  border-left-width: 75px;
+  border-left-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 75px;
+  border-bottom-color: white;
+}
+
+.text-background {
+  background-color: white;
+  display: block;
+  margin: auto;
+  border-right-color: #c4c4c4;
+  border-right-style: solid;
+  border-right-width: 170px;
+  border-left-color: #c4c4c4;
+  border-left-style: solid;
+  border-left-width: 170px;
+    }
+
+.h4-text {
+  font-size: 16px;
+  font-family: 'Freckle Face', cursive;
+  font-family: 'Black Ops One', cursive;
+  font-family: 'Walter Turncoat', cursive;
+  font-family: 'Farsan', cursive;
+  line-height: 60px;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  
+}
+
+.p-text {
+  font-size: 50px;
+  font-family: 'Freckle Face', cursive;
+  line-height: 80%;
+  margin-top: 45px;
+  margin-bottom: 0px;
+  color: #333535;
+}
+
+.date-text {
+  font-size: 20px;
+  font-family: 'Freckle Face', cursive;
+  font-family: 'Black Ops One', cursive;
+  font-family: 'Walter Turncoat', cursive;
+  font-family: 'Farsan', cursive;
+  line-height: 80%;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: #333535;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-family: 'Freckle Face', cursive;
+  font-family: 'Black Ops One', cursive;
+  font-family: 'Walter Turncoat', cursive;
+  font-family: 'Farsan', cursive;
+  line-height: 100%;
+  margin-top: 12px;
+  margin-bottom: 30px;
+  color: #333535;
+}
+  
+  .timeline-head {
+  font-size: 28px;
+  font-family: 'Freckle Face', cursive;
+  line-height: 80%;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  color: #333535;
+  }
+
+ul2 {
+  list-style-type: none;
+}
+
+.end-sentence {
+  font-size: 34px;
+  font-family: 'Freckle Face', cursive;
+  line-height: 80%;
+  margin-top: 55px;
+  margin-bottom: 100px;
+  color: #333535;
+}
+
+.h7-text {
+  font-size: 16px;
+  font-family: 'Freckle Face', cursive;
+  font-family: 'Black Ops One', cursive;
+  font-family: 'Walter Turncoat', cursive;
+  font-family: 'Farsan', cursive;
+  line-height: 0px;
+  margin-top: 0px;
+  margin-bottom: -40px;
+  text-align:center;  
+}
+
+

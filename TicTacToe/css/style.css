@@ -1,0 +1,235 @@
+#outerBox {
+  border: 1px solid white;
+  height: 480px;
+  width: 800px !important;
+  margin: 0 auto;
+  padding-top: 0px;
+  text-align: center;
+  
+}
+#gameBorder {
+  border: 1px solid black;
+  height: 378px;
+  width: 760px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: -2px 2px 2px gray;
+  background-color: ;
+}
+#gameBoardBox {
+  border: 1pt solid black;
+  height: 340px;
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+  border-radius: 20px;
+  margin-top: 18px;
+  margin-left: 18px;
+  background-color: gray;
+  opacity: .95;
+}
+.options {
+  border: 1pt solid black;
+  height: 138px;
+  width: 278px;
+  float: right;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #E0E0E0;
+}
+.textBox {
+  border: 1pt solid black;
+  height: 138px;
+  width: 278px;
+  float: right;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #E0E0E0;
+}
+#outerEdge {
+  border: 1pt solid black;
+  height: 160px;
+  width: 300px;
+  float: right;
+  border-radius: 20px;
+  margin-top: 18px;
+  margin-right: 18px;
+  background-color: gray;
+
+}
+.textBoxBorder {
+  border: 1pt solid black;
+  height: 160px;
+  width: 300px;
+  float: right;
+  border-radius: 20px;
+  margin-top: 18px;
+  margin-right: 18px;
+  background-color: gray;
+
+}
+#board {
+  margin: 14px;
+  border-radius: 20px;
+}
+.square {
+  position: relative;
+  z-index: 20;
+  border: 1pt solid black;
+  width: 120px !important;
+  height: 98px !important;
+  border-radius: 10px;
+  cursor: pointer;
+  background: fill;
+  background-color: #E0E0E0;
+  font-family: VT323;
+}
+.square:hover {
+  border: 1pt solid black;
+  width: 120px !important;
+  height: 98px !important;
+  border-radius: 10px;
+  cursor: pointer;
+  background: fill;
+  background-color: orange;
+  font-family: VT323;
+}
+.square:active {
+  border: 1pt solid black;
+  width: 120px !important;
+  height: 98px !important;
+  border-radius: 10px;
+  cursor: pointer;
+  background: fill;
+  background-color: pink;
+  font-family: VT323;
+}
+.gameCell {
+  font-size: 6em;
+  margin: 0 auto;
+  width: 120px;
+  height: 98px;
+}
+.scoreSquare {
+  border: 1pt solid black;
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+}
+#scoreBoard {
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+#rBtnX {
+  margin-left: 20px;
+  margin-right: 0px;
+}
+#rBtnO {
+  margin-left: 40px;
+  margin-right: 0px;
+}
+form {
+  text-align: center;
+  margin-left: 0px;
+  font-family: VT323;
+  font-size: 22px;
+}
+h1 {
+  font-family: VT323;
+  font-size: 40px;
+  color: white;
+}
+h2 {
+  font-family: VT323;
+}
+h3 {
+  font-family: VT323;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: -8px;
+}
+h4 {
+  font-family: VT323;
+}
+h5 {
+  font-family: VT323;
+  font-size: 14px;
+  margin-top: 0px;
+}
+h6 {
+  font-family: VT323;
+  font-size: 20px;
+  margin-top: -2px;
+}
+.blinkTile {
+  background-color: #42A5F5;
+  border: 1pt solid black;
+  width: 120px !important;
+  height: 101px !important;
+  border-radius: 10px;
+  cursor: pointer;
+  background: fill;
+  font-family: VT323;
+}
+input {
+  cursor: pointer;
+}
+#youWinModal {
+  height: 200px;
+  width: 300px;
+  border: 1pt solid black;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: -2px 2px 2px gray;
+  margin-top: -290px;
+  margin-left: 88px;
+  position: relative;
+}
+#refreshButton {
+  border-radius: 20px;
+  height: 40px;
+  width: 274px;
+  margin-top: 40px;
+  margin-left: -137px;
+  outline: none;
+  position: absolute;
+  background-color: gray;
+  border: 1pt solid black;
+  font-family: VT323;
+  font-size: 20px;
+}
+#refreshButton:hover {
+  border-radius: 20px;
+  height: 40px;
+  width: 274px;
+  margin-top: 40px;
+  margin-left: -137px;
+  outline: none;
+  position: absolute;
+  background-color: #42A5F5;
+  border: 1pt solid black;
+}
+#refreshButton:active {
+  border-radius: 20px;
+  height: 40px;
+  width: 274px;
+  margin-top: 40px;
+  margin-left: -137px;
+  outline: none;
+  position: absolute;
+  background-color: pink;
+  border: 1pt solid black;
+}
+.youWinText {
+  font-family: VT323;
+  font-size: 40px;
+  margin-top: -30px;
+  margin-bottom: -20px;
+}
+.textBoxColor {
+  background-color: #76FF03;
+}

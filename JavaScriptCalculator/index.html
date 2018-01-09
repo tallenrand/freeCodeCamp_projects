@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Calculator</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link href="https://fonts.googleapis.com/css?family=Ranchers" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"><!--font-family: 'Press Start 2P', cursive;-->
+
+<div>
+  <br>
+  <h1>Javascript Calculator</h1>
+</div>
+
+<div id="calcBody">
+  
+  <form name="calcData">
+
+    <input id="screen">
+    
+  
+  <div id="titleRow">
+    <h1>Mr. Calculator</h1>
+  </div>
+  
+
+    
+   <div id="buttons">
+     
+     <div class="wrapper">
+      <input type="button" class="btn2" id="ac" value="AC" onclick="clearAll()">
+
+      <input type="button" class="btn" id="buttonDiv" value="/" onclick="calcDivide()">
+      <input type="button" class="btn" id="buttonx" value="*" onclick="calcMultiply()">
+      <input type="button" class="btn" id="buttonPlus" value="+" onclick="calcAdd()">
+      <input type="button" class="btn" id="button7" value="7" onclick="calc7()">
+      <input type="button" class="btn" id="button8" value="8" onclick="calc8()">
+      <input type="button" class="btn" id="button9" value="9" onclick="calc9()">
+      <input type="button" class="btn" id="buttonSub" value="-" onclick="calcSubtract()">
+      <input type="button" class="btn" id="button4" value="4" onclick="calc4()">
+      <input type="button" class="btn" id="button5" value="5" onclick="calc5()">
+      <input type="button" class="btn" id="button6" value="6" onclick="calc6()">
+      <input type="button" class="btn2" id="equal" value="=" onclick="calcEquals()">
+      <input type="button" class="btn" id="button1" value="1" onclick="calc1()">
+      <input type="button" class="btn" id="button2" value="2" onclick="calc2()">
+      <input type="button" class="btn" id="button3" value="3" onclick="calc3()">
+      <h1 id="empty"></h1>      
+      
+      <input type="button" class="btn" id="button0" value="0" onclick="calc0()">
+
+    </div>
+
+  </div>
+  
+</div>
+<h2>Copyright &#169 Tallen Rand, 2017</h2>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

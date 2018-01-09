@@ -1,0 +1,282 @@
+body {
+  background-image: url('https://images.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.raZ3MWK2gwKs9fz8wm8r8QHaHa%26pid%3D15.1&f=1');
+  background-size: contain 50% 50%;
+  background-repeat: repeat;
+}
+
+#outerEdge {
+  height: 402px;
+  width: 402px;
+  border: 0pt solid black;
+  margin: 0 auto;
+}
+#circleEdge {
+  height: 400px;
+  width: 400px;
+  border: 1pt solid #263238;
+  border-radius: 200px;
+  margin: 0 auto;
+  background-color: #263238;
+  box-shadow: -3px 3px 3px gray;
+}
+.touchpad {
+  height: 180px;
+  width: 180px;
+  border: 1pt solid #263238;
+  float: left;
+  cursor: pointer;
+  outline: none;
+  margin-left: 12px;
+  margin-top: 12px;
+  position: relative;
+}
+.green {
+  border-radius: 100% 0 0 0;
+  -moz-border-radius: 100% 0 0 0;
+  background-color: #00C853;
+}
+
+.green-active {
+  background-color: #1B5E20 !important;
+}
+
+.red {
+  border-radius: 0 100% 0 0;
+  -moz-border-radius: 0 100% 0 0;
+  background-color: #DD2C00;
+}
+.red-active {
+  background-color: #B71C1C !important;
+}
+.yellow {
+  -moz-border-radius: 0 0 0 100%;
+  border-radius: 0 0 0 100%;
+  background-color: #FFEA00;
+}
+.yellow-active {
+  background-color: #827717 !important;
+}
+.blue {
+  border-radius: 0 0 100% 0;
+  background-color: #0091EA;
+}
+.blue-active {
+  background-color: #0D47A1 !important;
+}
+
+#gameBoard {
+  border: 8pt solid #263238;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  margin-top: 22.5%;
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  position: absolute;
+  margin-left: 58px;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+}
+h2 {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Righteous', cursive;
+  color: white;
+}
+#countBox {
+  height: 30px;
+  width: 50px;
+  background-color: #263238;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-left: 18px;
+}
+#countBoxNumbers {
+  color: red;
+  position: absolute;
+  z-index: 1;
+  margin-top: 8px;
+  margin-left:18px;
+  font-family: 'Righteous', cursive;
+  font-size: 12px;
+}
+#countText {
+  margin-top: -10px;
+  margin-left: 28px;
+  position: absolute;
+  font-family: 'Righteous', cursive;
+  font-size: 10px;
+}
+#startButton {
+  height: 22px;
+  width: 22px;
+  border: 2pt solid #263238;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -202px;
+  margin-top: -30px;
+  background-color: #FFEA00;
+  z-index: 20;
+  cursor: pointer;
+}
+#startButton:hover {
+  height: 22px;
+  width: 22px;
+  border: 2pt solid #263238;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -202px;
+  margin-top: -30px;
+  z-index: 20;
+  background-color: #EEFF41;
+  cursor: pointer;
+}
+#startButton:active {
+  height: 22px;
+  width: 22px;
+  border: 2pt solid #263238;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -202px;
+  margin-top: -30px;
+  z-index: 20;
+  background-color: #827717;
+  cursor: pointer;
+}
+#startText {
+  margin-top: -10px;
+  margin-left: 86px;
+  position: absolute;
+  font-family: 'Righteous', cursive;
+  font-size: 10px;
+}
+#strictButton {
+  height: 22px;
+  width: 22px;
+  border: 2pt solid #263238;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -150px;
+  margin-top: -30px;
+  background-color: #DD2C00;
+  z-index: 1;
+  cursor: pointer;
+  background: fill;
+  overflow: hidden;
+}
+#strictButton:hover {
+  height: 22px;
+  width: 22px;
+  border: 2pt solid #263238;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 20;
+  margin-left: -150px;
+  margin-top: -30px;
+  background-color: #FF3D00;
+  cursor: pointer;
+  background: fill;
+}
+#strictButton:active {
+  height: 22px;
+  width: 22px;
+  border: 2pt solid #263238;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 20;
+  margin-left: -150px;
+  margin-top: -30px;
+  background-color: #DD2C00;
+  cursor: pointer;
+  background: fill;
+}
+#strictBorder {
+  height: 8px;
+  width: 8px;
+  border: 2pt solid #263238;
+  border-radius: 50%;
+  position: relative !important;
+  margin-left: 164px;
+  margin-top: -38px;
+  background-color: #263238;
+  cursor: pointer;
+  background: fill;
+}
+.strictActive {
+  background-color: red !important;
+
+}
+#strictNotActive {
+  height: 7px;
+  width: 8px;
+  border: 0pt solid #263238;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 1px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+#strictText {
+  margin-top: -10px;
+  margin-left: 138px;
+  position: absolute;
+  font-family: 'Righteous', cursive;
+  font-size: 10px; 
+}
+#onOffRec {
+  height: 16px;
+  width: 40px;
+  background-color: #263238;
+  position: absolute;
+  z-index: 1;
+  margin-left: 82px;
+  margin-top: 50px;
+  border-radius: 4px;
+}
+#switchButton {
+  display: inline-block;
+  height: 11px;
+  width: 16px;
+  background-color: white;
+  border: 1pt solid black;
+  position: relative !important;
+  margin: 1px;
+  border-radius: 3px;
+  z-index: 10;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+#switchButton:active {
+  display: inline-block;
+  height: 11px;
+  width: 16px;
+  background-color: gray;
+  border: 1pt solid black;
+  position: relative !important;
+  margin: 1px;
+  border-radius: 3px;
+  z-index: 50;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+.leftOff {
+  float: left;
+}
+.rightOn {
+  float: right;
+}
+
+#onOffText {
+  position: absolute;
+  margin-top: 58px;
+  margin-left: 82px;
+  font-family: 'Righteous', cursive;
+  font-size: 10px; 
+}

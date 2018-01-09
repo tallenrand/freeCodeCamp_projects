@@ -1,0 +1,149 @@
+#outerBox {
+  padding: 20px;
+  border: 1px solid black;
+  height: 456px;
+  width: 800px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #C5CAE9;
+  box-shadow: 2px 2px 0.2px gray;
+}
+
+#innerBox {
+  padding-top: 10px;
+  padding-left: 20px;
+  margin: 0 auto;
+  width: 740px;
+  height: 96px;
+  border: 1px solid black;
+  background-color: #F8BBD0;
+  border-radius: 20px;
+  box-shadow: 2px 2px 0.2px gray;
+}
+
+#textBox {
+  margin-top: 6px; 
+  border: 1px solid black;
+  height: 62px;
+  border-radius: 20px;
+  background-color: white;
+  padding-left: 10px;
+  box-shadow: 2px 2px 0.2px gray;
+}
+#textBox:hover {
+  margin-top: 6px; 
+  border: 1px solid black;
+  height: 62px;
+  border-radius: 20px;
+  background-color: #80DEEA;
+  padding-left: 10px;
+  box-shadow: 2px 2px 0.2px gray;
+}
+#textBox:active {
+  margin-top: 6px; 
+  border: 1px solid black;
+  height: 62px;
+  border-radius: 20px;
+  background-color: #FF8A65;
+  padding-left: 10px;
+  box-shadow: 2px 2px 0.2px gray;
+}
+#textBox:focus {
+  outline-color: #F8BBD0;
+}
+a {
+  color: black;
+  font-family: Averia Sans Libre;
+}
+h1 {
+  text-align: left;
+  font-size: 35px;
+  font-family: Averia Sans Libre;
+  padding: 10px;
+  text-shadow: 1px 1px 0.2px gray;
+}
+
+h2 {
+  text-align: right;
+  font-size: 40px;
+  font-family: Henny Penny;
+  padding: 10px;
+}
+h3 {
+  font-size: 24px;
+  font-color: black;  
+}
+h5 {
+  text-align: center;
+  font-family: Averia Sans Libre;
+  font-size: 14px;
+}
+form {
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-top: 0px;
+}
+  
+#searchBox {  
+  height: 34px;
+  border-radius: 20px;
+  border: 1pt solid black;
+  padding: 10px;
+  outline-color: #F8BBD0;
+  box-shadow: 2px 2px 0.2px gray;
+  font-family: Averia Sans Libre;
+  font-size: 16px;
+}
+#magIcon {
+  height: 24px;
+  padding-right: 0px;
+  border-radius: 5px;
+}
+#magIcon:hover {
+  height: 34px;
+  margin-right: -10px;
+}
+#magIcon:focus {
+  outline-color: #F8BBD0;
+}
+#magIcon:active {
+  outline-color: #F8BBD0;
+  background-color: white;
+}
+button:active {
+  outline-color: #F8BBD0;
+  
+}
+ button:focus {
+  outline-color: #F8BBD0;
+   
+}
+input {
+  border-radius: 20px;
+}
+
+#spacer {
+  margin: 14px;
+}
+
+#spacer2 {
+  margin: 20px;
+}
+
+#wordSpace {
+  padding: 20px;
+  margin-top: 10px;
+  margin: 0 auto;
+  border: 1pt solid black;
+  width: 740px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 0.2px gray;
+  overflow: auto;
+}
+.articles {
+  font-size: 20px;
+  color: black;
+}

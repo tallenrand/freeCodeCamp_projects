@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+
+<div id="mainDiv">
+  
+  <h1>Pomodoro Clock</h1>
+  
+  <div id="clockBody">
+    <button id="clockFaceGo">
+      
+      
+      <div id="row">
+        <span id="timerTime">
+           25:00
+          </span>
+        <span id="timerText">
+          Time
+          </span>
+        <span id="breakTime">
+           5:00
+          </span>
+        <span id="breakText">
+          Break
+        </span>
+      </div>
+      
+      <div id="countdown">
+        <div id="timeTextFace">Timer</div>
+          
+          <div class="wrapper">
+            <span id="minutes">00</span>
+            <span id="colon">:</span>
+            <span id="seconds">00</span>
+          </div>
+        
+       </div>
+      
+    </div>
+  
+  <div id="timerSet">
+    <button id="timerUp">+</button>
+    <button id="timerDown">-</button>
+  </div>
+  
+  <div id="breakSet">
+    <button id="breakUp">+</button>
+    <button id="breakDown">-</button>
+  </div>
+  
+<!--The reset button will refresh the page-->
+  <div id="reset">
+    <button id="btnReset" onClick="history.go(0)">Reset</button>
+  </div>
+  
+  <div id="setTimerText">
+     <h2>Set<br>Timer</h2>
+  </div>
+  
+  <div id="setBreakText">
+     <h2>Set<br>Break</h2>
+  </div>
+  
+  <div id="start">
+    <button id="btnStart">Start</button>
+  </div>
+  <div id="stop">
+    <button id="btnStop">Stop</button>
+  </div>
+  
+  <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fi.huffpost.com%2Fgen%2F1537618%2Fthumbs%2Fo-PERSISTENCE-OF-MEMORY-900.jpg%3F1&f=1"/>
+</div><!--close mainDiv-->
+<h6>Tallen Rand, 2017</h6>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
